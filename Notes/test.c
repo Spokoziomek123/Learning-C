@@ -1,3 +1,6 @@
-//
-// Created by fiooo on 24/11/2023.
-//
+#include <stdio.h>
+
+int main(){
+    puts("Hello, World");
+    return 0;
+}
