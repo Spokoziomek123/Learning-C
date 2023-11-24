@@ -49,12 +49,6 @@ cmake_ninja_workdir = C$:/Users/fiooo/CLionProjects/Learning-C/cmake-build-debug
 
 build cmake_object_order_depends_target_Learning_C: phony || CMakeFiles/Learning_C.dir
 
-build CMakeFiles/Learning_C.dir/main.c.obj: C_COMPILER__Learning_C_unscanned_Debug C$:/Users/fiooo/CLionProjects/Learning-C/main.c || cmake_object_order_depends_target_Learning_C
-  DEP_FILE = CMakeFiles\Learning_C.dir\main.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Learning_C.dir
-  OBJECT_FILE_DIR = CMakeFiles\Learning_C.dir
-
 build CMakeFiles/Learning_C.dir/Notes/test.c.obj: C_COMPILER__Learning_C_unscanned_Debug C$:/Users/fiooo/CLionProjects/Learning-C/Notes/test.c || cmake_object_order_depends_target_Learning_C
   DEP_FILE = CMakeFiles\Learning_C.dir\Notes\test.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
@@ -69,7 +63,7 @@ build CMakeFiles/Learning_C.dir/Notes/test.c.obj: C_COMPILER__Learning_C_unscann
 #############################################
 # Link the executable Learning_C.exe
 
-build Learning_C.exe: C_EXECUTABLE_LINKER__Learning_C_Debug CMakeFiles/Learning_C.dir/main.c.obj CMakeFiles/Learning_C.dir/Notes/test.c.obj
+build Learning_C.exe: C_EXECUTABLE_LINKER__Learning_C_Debug CMakeFiles/Learning_C.dir/Notes/test.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Learning_C.dir
